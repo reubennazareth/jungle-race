@@ -88,7 +88,10 @@ class Game {
   
         if (index === player.index) {
           stroke(10);
-          //fill the circle with color
+          //fill the circle with colorv
+          stroke(10);
+          fill("red");
+          ellipse(x, y, 60, 60);
           //add the ellipse to create a focus for the player 
 
           this.handleBush(index);
